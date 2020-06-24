@@ -9,7 +9,7 @@ import "../node_modules/slick-carousel/slick/slick-theme.css"
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Wisata from './components/Wisata/Wisata.app'
-import Kuliner from './components/Wisata/Kuliner/Kuliner.app'
+import Kuliner from './components/Wisata/Kuliner.app'
 import Covid from './components/Covid/covid.app'
 import Navbar from './components/Navbar/Navbar'
 import News from './components/News/news.app'

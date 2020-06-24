@@ -13,7 +13,6 @@ class NewsApp extends Component {
         return response.json();
       })
       .then((myJson) => {
-        //  console.log(myJson);
         this.setState({
           articles: myJson.articles
         })
@@ -21,7 +20,6 @@ class NewsApp extends Component {
   }
 
   render() {
-    //  console.log(this.state);
     return (
       <div className="card container ">
         <h1>Berita Terbaru</h1>
@@ -42,4 +40,5 @@ class NewsApp extends Component {
     );
   }
 }
+
 export default NewsApp;

@@ -1,20 +1,20 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import Album from './components/album'
+const Kuliner = () => {
+    return (
+        <main role="main">
 
-class WisataApp extends Component {
-
-    render() {
-
-        return (
-            <main role="main">
-
-                <section className="jumbotron text-center">
-                    <div className="container">
-                        <h1>Wista</h1>
-                        <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-                    </div>
-                </section>
+            <section class="jumbotron text-center">
+                <div class="container">
+                    <h1>Kuliner</h1>
+                    <p class="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
+                    <p>
+                        <a href="#" class="btn btn-primary my-2">Main call to action</a>
+                        <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                    </p>
+                </div>
+            </section>
 
                 <div className="album py-5 bg-light">
                     <div className="container">
@@ -52,9 +52,8 @@ class WisataApp extends Component {
                     </div>
                 </div>
 
-            </main>
-        );
-    }
+        </main>
+    )
 }
 
-export default WisataApp
+export default Kuliner
